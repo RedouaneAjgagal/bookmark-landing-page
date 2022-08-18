@@ -154,6 +154,7 @@
     }
     .navLinks.open .social-media {
         display: flex;
+        gap: 1rem;
         align-items: center;
         justify-content: center;
         margin: 3rem 0 1rem;
