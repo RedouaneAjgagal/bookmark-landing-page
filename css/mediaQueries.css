@@ -1,0 +1,204 @@
+@media (max-width:1215px) {
+    section .header-img img {
+        max-width: 30rem;
+    }
+    section .header-img::before {
+        width: 20rem;
+        height: 17rem;
+    }
+    .features .features-img img {
+        max-width: 25rem;
+    }
+    .features .features-img::before {
+        width: 20rem;
+        height: 17rem;
+        top: 33rem;
+    }
+}
+@media (max-width:1020px) {
+    section .brand-content h1 {
+        font-size: 2.3rem;
+    }
+    section .brand-content .btns a {
+        padding: .8rem 1rem;
+    }
+    .features .features-img img {
+        max-width: 20rem;
+    }
+    .features .features-img::before {
+        height: 14rem;
+        top: 32rem;
+    }
+}
+@media (max-width:916px) {
+    body{
+        text-align: center;
+    }
+    nav {
+        padding: 2.5rem 1rem;
+    }
+    header section {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    header section .brand-content {
+        order: 1;
+    }
+    section .header-img img {
+        margin-right: 0;
+    }
+    section .header-img::before {
+        top: 15rem;
+        width: 65%;
+    }
+    section .brand-content .btns {
+        justify-content: center;
+    }
+    .article-btn > div {
+        border-top: solid 1px #c4c4c473;
+    }
+    .article-btn > div:last-child {
+        border-bottom: solid 1px #c4c4c473;
+    }
+    article .article-btn {
+        flex-direction: column;
+        border-bottom: none;
+        padding: 0 1rem;
+    }
+    .features {
+        flex-direction: column;
+        gap: 6.5rem;
+    }
+    .features .features-img img {
+        max-width: 25rem;
+    }
+    .features .features-img::before {
+        width: 65%;
+        height: 16rem;
+        top: 34rem;
+    }
+    .features .features-content a {
+        margin: auto;
+    }
+    .download-browser {
+        flex-direction: column;
+        max-width: 22rem;
+    }
+    .download-browser > div {
+        padding: 4rem 0 3rem;
+    }
+}
+@media (max-width:767px) {
+    body.no-scroll {
+        overflow: hidden;
+    }
+    #bookmark-logo {
+        z-index: 1;
+    }
+    header nav ul {
+        display: none;
+    }
+    .burgerMenu::before {
+        content: '\f0c9';
+        font-family: "Font Awesome 6 free";
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+    .burgerMenu.close::before {
+        content: '\f00d';
+        font-family: "font awesome 6 free";
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #fff;
+    }
+    .burgerMenu {
+        border: none;
+        background: none;
+        display: inline-block;
+        z-index: 1;
+        width: 2rem;
+        cursor: pointer;
+    }
+    .navLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        transition: .3s;
+    }
+    .navLinks.open {
+        padding: 10rem 1rem;
+        top: 0;
+        background-color: #252b46f5;
+        min-height: 100vh;
+        left: 0;
+    }
+    .navLinks.open li a {
+        color: #fff;
+        padding: 1.3rem 2rem;
+        display: block;
+        border-top: solid 1px #868686;
+    }
+    .contact {
+        border-bottom: solid 1px #868686;
+    }
+    .login {
+        margin-top: 3rem;
+        border-top: 2px solid #fff !important;
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid #fff;
+    }
+    .navLinks.open .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0 1rem;
+    }
+    .navLinks.open .social-media li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+    header section {
+        padding: 3rem 1rem;
+    }
+    .features {
+        padding: 4rem 1rem;
+    }
+    footer .sign-up form {
+        grid-template-columns: 100%;
+    }
+    .footer .fotter-links {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    .footer .fotter-links ul {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+@media (max-width:482px) {
+    section .brand-content h1 {
+        font-size: 2rem;
+    }
+    section .header-img img {
+        max-width: 20.5rem;
+    }
+    section .header-img::before {
+        top: 14rem;
+        height: 11rem;
+    }
+    .features .features-img img {
+        max-width: 16.5rem;
+    }
+    .features .features-img::before {
+        top: 34.5rem;
+        height: 12rem;
+    }
+    section .brand-content .btns a {
+        padding: .8rem .7rem;
+    }
+}
