@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Links
 
-- Bookmark landing page Source: [GitHub Repository]https://github.com/RedouaneAjgagal/bookmark-landing-page)
+- Bookmark landing page Source: [GitHub Repository](https://github.com/RedouaneAjgagal/bookmark-landing-page)
 - Bookmark landing page Live: [Live Site](https://redouaneajgagal.github.io/bookmark-landing-page/)
 
 ## My process
