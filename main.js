@@ -9,7 +9,7 @@ burgerMenu.addEventListener("click", () => {
     document.body.classList.toggle("no-scroll");
     
     if(navLinks.classList.contains("open")) {
-        bookmarkLogo.setAttribute("src", "./images/logo-bookmark -BackGround.svg");
+        bookmarkLogo.setAttribute("src", "./images/logo-bookmark-BackGround.svg");
         burgerMenu.setAttribute("aria-expanded", "true");
     } else {
         bookmarkLogo.setAttribute("src", "./images/logo-bookmark.svg");
